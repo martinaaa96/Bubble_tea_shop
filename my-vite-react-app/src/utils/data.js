@@ -1,8 +1,8 @@
 export const data = [
     {
         id: 1,
-        name: '',
-        category: 'bubble tea',
+        name: 'Original',
+        category: 'Milk Tea',
         ingredients: '',
         image: '',
         price: '10',
@@ -10,8 +10,8 @@ export const data = [
     },
     {
         id: 2,
-        name: '',
-        category: 'bubble tea',
+        name: 'Taro ',
+        category: 'Milk Tea',
         ingredients: '',
         image: '',
         price: '12',
@@ -20,8 +20,8 @@ export const data = [
     },
     {
         id: 3,
-        name: '',
-        category: 'bubble tea',
+        name: 'Mango',
+        category: 'Milk Tea',
         ingredients: '',
         image: '',
         price: '13',
@@ -29,8 +29,8 @@ export const data = [
     },
     {
         id: 4,
-        name: '',
-        category: 'bubble tea',
+        name: 'Almond',
+        category: 'Milk Tea',
         ingredients: '',
         image: '',
         price: '8',
@@ -38,8 +38,8 @@ export const data = [
     },
     {
         id: 5,
-        name: '',
-        category: 'bubble tea',
+        name: 'Strawberry',
+        category: 'Milk Tea',
         ingredients: '',
         image: '',
         price: '10',
@@ -47,8 +47,8 @@ export const data = [
     },
     {
         id: 6,
-        name: '',
-        category: 'bubble tea',
+        name: 'Green apple',
+        category: 'Fruit Tea',
         ingredients: '',
         image: '',
         price: '10',
@@ -57,8 +57,8 @@ export const data = [
     },
     {
         id: 7,
-        name: '',
-        category: 'Milk shake',
+        name: 'Peach',
+        category: 'Fruit Tea',
         ingredients: '',
         image: '',
         price: '10',
@@ -66,8 +66,8 @@ export const data = [
     },
     {
         id: 8,
-        name: '',
-        category: 'milk shake',
+        name: 'Mango',
+        category: 'Fruit Tea',
         ingredients: '',
         image: '',
         price: '10',
@@ -75,8 +75,8 @@ export const data = [
     },
     {
         id: 9,
-        name: '',
-        category: 'milk shake',
+        name: 'Passion fruit',
+        category: 'Fruit Tea',
         ingredients: '',
         image: '',
         price: '10',
@@ -84,8 +84,8 @@ export const data = [
     },
     {
         id: 10,
-        name: '',
-        category: 'milk shake',
+        name: 'Peach',
+        category: 'Milk Shake',
         ingredients: '',
         image: '',
         price: '10',
@@ -94,8 +94,8 @@ export const data = [
     },
     {
         id: 11,
-        name: '',
-        category: 'milk shake',
+        name: 'Blueberry',
+        category: 'Milk Shake',
         ingredients: '',
         image: '',
         price: '10',
@@ -104,11 +104,30 @@ export const data = [
     },
     {
         id: 12,
-        name: '',
-        category: 'milk shake',
+        name: 'Forest fruits',
+        category: 'milk Shake',
         ingredients: '',
         image: '',
         price: '10',
 
-    }
+    },
+    {
+        id: 13,
+        name: 'Strawberry',
+        category: 'milk Shake',
+        ingredients: '',
+        image: '',
+        price: '10',
+
+    },{
+        id: 14,
+        name: 'Banana',
+        category: 'milk Shake',
+        ingredients: '',
+        image: '',
+        price: '10',
+
+    },
+
+
 ]

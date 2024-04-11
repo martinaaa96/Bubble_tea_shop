@@ -28,11 +28,7 @@ export default function Header() {
             </div>
           </div>
           <div className="md:w-1/2 lg:w-1/3 mt-8 md:mt-0">
-            <img
-              src="https://via.placeholder.com/500x500"
-              alt="Hero Image"
-              className="rounded-lg shadow-lg"
-            />
+            <img src="" alt="Hero Image" className="rounded-lg shadow-lg" />
           </div>
         </div>
       </div>
