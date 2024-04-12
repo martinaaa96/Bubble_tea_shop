@@ -3,7 +3,7 @@ export const data = [
         id: 1,
         name: 'Original',
         category: 'Milk Tea',
-        ingredients: '',
+        ingredients: 'black tea, milk, sugar, ice cubes',
         image: '',
         price: '10',
 
@@ -12,7 +12,7 @@ export const data = [
         id: 2,
         name: 'Taro ',
         category: 'Milk Tea',
-        ingredients: '',
+        ingredients: 'Taro paste, black tea, milk, sugar, ice cubes',
         image: '',
         price: '12',
 
@@ -22,7 +22,7 @@ export const data = [
         id: 3,
         name: 'Mango',
         category: 'Milk Tea',
-        ingredients: '',
+        ingredients: 'Mango paste, black tea, milk, sugar, ice cubes',
         image: '',
         price: '13',
 
@@ -31,7 +31,7 @@ export const data = [
         id: 4,
         name: 'Almond',
         category: 'Milk Tea',
-        ingredients: '',
+        ingredients: 'Almond paste, black tea, milk, sugar, ice cubes',
         image: '',
         price: '8',
 
@@ -40,7 +40,7 @@ export const data = [
         id: 5,
         name: 'Strawberry',
         category: 'Milk Tea',
-        ingredients: '',
+        ingredients: 'Strawberry, black tea, milk, sugar, ice cubes',
         image: '',
         price: '10',
 
@@ -49,7 +49,7 @@ export const data = [
         id: 6,
         name: 'Green apple',
         category: 'Fruit Tea',
-        ingredients: '',
+        ingredients: 'Green apple syrup, black tea, sugar, ice cubes',
         image: '',
         price: '10',
 
@@ -59,7 +59,7 @@ export const data = [
         id: 7,
         name: 'Peach',
         category: 'Fruit Tea',
-        ingredients: '',
+        ingredients: 'Peach syrup, black tea, sugar, ice cubes',
         image: '',
         price: '10',
 
@@ -68,7 +68,7 @@ export const data = [
         id: 8,
         name: 'Mango',
         category: 'Fruit Tea',
-        ingredients: '',
+        ingredients: 'Mango syrup, black tea, sugar, ice cubes',
         image: '',
         price: '10',
 
@@ -77,7 +77,7 @@ export const data = [
         id: 9,
         name: 'Passion fruit',
         category: 'Fruit Tea',
-        ingredients: '',
+        ingredients: 'Forest fruit syrup, black tea, sugar, ice cubes',
         image: '',
         price: '10',
 
@@ -86,7 +86,7 @@ export const data = [
         id: 10,
         name: 'Peach',
         category: 'Milk Shake',
-        ingredients: '',
+        ingredients: 'Fresh peaches, milk, vanilla ice cream, whipped cream',
         image: '',
         price: '10',
 
@@ -96,7 +96,7 @@ export const data = [
         id: 11,
         name: 'Blueberry',
         category: 'Milk Shake',
-        ingredients: '',
+        ingredients: 'Fresh blueberries, milk, vanilla ice cream, whipped cream',
         image: '',
         price: '10',
 
@@ -106,7 +106,7 @@ export const data = [
         id: 12,
         name: 'Forest fruits',
         category: 'milk Shake',
-        ingredients: '',
+        ingredients: 'Fresh forest fruits, milk, vanilla ice cream, whipped cream',
         image: '',
         price: '10',
 
@@ -115,15 +115,15 @@ export const data = [
         id: 13,
         name: 'Strawberry',
         category: 'milk Shake',
-        ingredients: '',
+        ingredients: 'Fresh strawberries, milk, vanilla ice cream, whipped cream',
         image: '',
         price: '10',
 
-    },{
+    }, {
         id: 14,
         name: 'Banana',
         category: 'milk Shake',
-        ingredients: '',
+        ingredients: ' Fresh bananas, milk, vanilla ice cream, whipped cream',
         image: '',
         price: '10',
 
