@@ -4,7 +4,7 @@ export const data = [
         name: 'Original',
         category: 'Milk Tea',
         ingredients: 'black tea, milk, sugar, ice cubes',
-        image: '',
+        image: '/my-vite-react-app/public/Original_Milk-Tea-Boba.jpg',
         price: '10',
 
     },
@@ -13,7 +13,7 @@ export const data = [
         name: 'Taro ',
         category: 'Milk Tea',
         ingredients: 'Taro paste, black tea, milk, sugar, ice cubes',
-        image: '',
+        image: '/my-vite-react-app/public/Taro-Milk-Bubble-Tea-with-Brown-Sugar-Boba.png',
         price: '12',
 
 
@@ -23,7 +23,7 @@ export const data = [
         name: 'Mango',
         category: 'Milk Tea',
         ingredients: 'Mango paste, black tea, milk, sugar, ice cubes',
-        image: '',
+        image: '/my-vite-react-app/public/Mango-Bubble-Tea.png',
         price: '13',
 
     },
@@ -32,7 +32,7 @@ export const data = [
         name: 'Almond',
         category: 'Milk Tea',
         ingredients: 'Almond paste, black tea, milk, sugar, ice cubes',
-        image: '',
+        image: '/my-vite-react-app/public/Almond-Milk-Tea.png',
         price: '8',
 
     },
@@ -41,16 +41,16 @@ export const data = [
         name: 'Strawberry',
         category: 'Milk Tea',
         ingredients: 'Strawberry, black tea, milk, sugar, ice cubes',
-        image: '',
+        image: '/my-vite-react-app/public/iced-bubble-tea.png',
         price: '10',
 
     },
     {
         id: 6,
-        name: 'Green apple',
+        name: 'Kiwi',
         category: 'Fruit Tea',
         ingredients: 'Green apple syrup, black tea, sugar, ice cubes',
-        image: '',
+        image: '/my-vite-react-app/public/kiwi_fruit_tea.jpg',
         price: '10',
 
 
@@ -60,7 +60,7 @@ export const data = [
         name: 'Peach',
         category: 'Fruit Tea',
         ingredients: 'Peach syrup, black tea, sugar, ice cubes',
-        image: '',
+        image: '/my-vite-react-app/public/peach_fruit_tea.jpg',
         price: '10',
 
     },
@@ -69,7 +69,7 @@ export const data = [
         name: 'Mango',
         category: 'Fruit Tea',
         ingredients: 'Mango syrup, black tea, sugar, ice cubes',
-        image: '',
+        image: '/my-vite-react-app/public/Mango-Green-Teas-2.jpg',
         price: '10',
 
     },
@@ -78,7 +78,7 @@ export const data = [
         name: 'Passion fruit',
         category: 'Fruit Tea',
         ingredients: 'Forest fruit syrup, black tea, sugar, ice cubes',
-        image: '',
+        image: '/my-vite-react-app/public/passion-fruit-tea.jpg',
         price: '10',
 
     },
@@ -87,7 +87,7 @@ export const data = [
         name: 'Peach',
         category: 'Milk Shake',
         ingredients: 'Fresh peaches, milk, vanilla ice cream, whipped cream',
-        image: '',
+        image: '/my-vite-react-app/public/peach_milkshake.jpg',
         price: '10',
 
 
@@ -97,17 +97,17 @@ export const data = [
         name: 'Blueberry',
         category: 'Milk Shake',
         ingredients: 'Fresh blueberries, milk, vanilla ice cream, whipped cream',
-        image: '',
+        image: '/Blueberry Cheesecake Milkshake.jpg',
         price: '10',
 
 
     },
     {
         id: 12,
-        name: 'Forest fruits',
+        name: 'Raspberry',
         category: 'milk Shake',
-        ingredients: 'Fresh forest fruits, milk, vanilla ice cream, whipped cream',
-        image: '',
+        ingredients: 'fresh raspberry, milk, vanilla ice cream, whipped cream',
+        image: '/Raspberry and chocolate brownie sharing milkshake _ Asda Good Living.jpg',
         price: '10',
 
     },
@@ -116,7 +116,7 @@ export const data = [
         name: 'Strawberry',
         category: 'milk Shake',
         ingredients: 'Fresh strawberries, milk, vanilla ice cream, whipped cream',
-        image: '',
+        image: '/Strawberry Milkshake.jpg',
         price: '10',
 
     }, {
@@ -124,10 +124,11 @@ export const data = [
         name: 'Banana',
         category: 'milk Shake',
         ingredients: ' Fresh bananas, milk, vanilla ice cream, whipped cream',
-        image: '',
+        image: '/Banana Milkshake.jpg',
         price: '10',
 
     },
+
 
 
 ]
