@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap');
+    body{
+      @apply font-[Poppins]
+ 
+ 
+    }
+    li{
+        @apply p-4 text-xl
+    }
+   
+}
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+  }
+  
+  
+  @keyframes fadeDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 1s ease-out; 
+  }
+  
+  .animate-fade-down {
+    animation: fadeDown 1s ease-out; 
+  }
