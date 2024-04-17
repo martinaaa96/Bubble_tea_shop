@@ -1,16 +1,12 @@
-
+import { LuSearch } from "react-icons/lu";
 import { RiMenu3Fill } from "react-icons/ri";
 import { HiXMark } from "react-icons/hi2";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-
-
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [logo, setLogo] = useState(false);
-
-
 
   const handleNav = () => {
     setOpen(!open);
@@ -47,6 +43,13 @@ export default function Header() {
             </Link>
           </li>
         </ul>
+        <div className="flex mt-4 md:mt-0">
+          <LuSearch
+            size={20}
+            className=" mr-5 my-7 md:my-0 md:ml-8 hover:text-purple-700 duration-500 "
+          />
+        </div>
+
         <div onClick={handleNav} className="md:hidden z-10">
           {open ? <HiXMark size={20} /> : <RiMenu3Fill size={20} />}
         </div>
