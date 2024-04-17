@@ -1,11 +1,16 @@
+
 import { RiMenu3Fill } from "react-icons/ri";
 import { HiXMark } from "react-icons/hi2";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+
+
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [logo, setLogo] = useState(false);
+
+
 
   const handleNav = () => {
     setOpen(!open);
@@ -26,17 +31,17 @@ export default function Header() {
           </Link>
         </div>
         <ul className=" hidden md:flex">
-          <li className="text-gray-800 hover:text-pink-400 duration-500">
+          <li className="text-gray-800 hover:text-purple-700 duration-500">
             <Link to="/" className="my-7 md:my-0 md:ml-8">
               Home
             </Link>
           </li>
-          <li className="text-gray-800 hover:text-pink-400 duration-500">
+          <li className="text-gray-800 hover:text-purple-700 duration-500">
             <Link to="/about" className="my-7 md:my-0 md:ml-8">
               About
             </Link>
           </li>
-          <li className="text-gray-800 hover:text-pink-400 duration-500">
+          <li className="text-gray-800 hover:text-purple-700 duration-500">
             <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
               Menu
             </Link>
@@ -49,23 +54,23 @@ export default function Header() {
           onClick={handleNav}
           className={
             open
-              ? "absolute left-0 top-0 w-full bg-pink-100/90 px-4 py-7 flex flex-col"
+              ? "absolute left-0 top-0 w-full bg-purple-100/90 px-4 py-7 flex flex-col"
               : "absolute left-[-100%]"
           }
         >
           <ul>
             <img src="/logo.png" alt="logo" style={{ width: "100px" }} />
-            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+            <li className="text-gray-800 border-b hover:text-purple-700 duration-500">
               <Link to="/" className="my-7 md:my-0 md:ml-8">
                 Home
               </Link>
             </li>
-            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+            <li className="text-gray-800 border-b hover:text-purple-700 duration-500">
               <Link to="/about" className="my-7 md:my-0 md:ml-8">
                 About
               </Link>
             </li>
-            <li className="text-gray-800 border-b hover:text-pink-400 duration-500">
+            <li className="text-gray-800 border-b hover:text-purple-700 duration-500">
               <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
                 Menu
               </Link>
