@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="w-screen h-[calc(100vh)]">
-      <div className="bg-cover bg-[url('/homePics.jpg')] bg-center bg-no-repeat h-full w-full">
+      <div className="bg-cover bg-[url('/homePics.jpg')] bg-center bg-no-repeat h-full w-full style={{ backgroundSize: 'contain' }}">
         <div className="container mx-auto flex flex-col my-auto align-middle h-full">
           <div className="my-auto  mx-auto lg:mx-0 w-10/12 lg:w-2/5">
             <h1 className="text-7xl mb-4">
