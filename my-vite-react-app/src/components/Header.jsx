@@ -15,72 +15,72 @@ export default function Header() {
 
   return (
     <>
-      <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
-        <div>
-          <Link to="/" className="my-7 md:my-0 md:ml-8 cursor: pointer">
-            <img
-              src="/logo.png"
-              alt="logo"
-              className="hover:scale-110 duration-500"
-              style={{ width: "100px" }}
-            />
+    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
+      <div>
+        <Link to="/" className="my-7 md:my-0 md:ml-8 cursor: pointer">
+          <img
+            src="/logo.png"
+            alt="logo"
+            className="hover:scale-110 duration-500"
+            style={{ width: "100px" }}
+          />
+        </Link>
+      </div>
+      <ul className="hidden md:flex md:ml-56">
+        <li className="text-white hover:text-purple-700 duration-500">
+          <Link to="/" className="my-7 md:my-0 md:ml-8">
+            Home
           </Link>
-        </div>
-        <ul className=" hidden md:flex">
-          <li className="text-gray-800 hover:text-purple-700 duration-500">
+        </li>
+        <li className="text-white hover:text-purple-700 duration-500">
+          <Link to="/about" className="my-7 md:my-0 md:ml-8">
+            About
+          </Link>
+        </li>
+        <li className="text-white hover:text-purple-700 duration-500">
+          <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
+            Menu
+          </Link>
+        </li>
+      </ul>
+      <div className="flex mt-4 md:mt-0">
+        <LuSearch
+          size={20}
+          className="mr-5 my-7 md:my-0 md:ml-8 hover:text-purple-700 duration-500"
+        />
+      </div>
+  
+      <div onClick={handleNav} className="md:hidden z-10">
+        {open ? <HiXMark size={20} /> : <RiMenu3Fill size={20} />}
+      </div>
+      <div
+        onClick={handleNav}
+        className={
+          open
+            ? "absolute left-0 top-0 w-full bg-purple-100/90 px-4 py-7 flex flex-col"
+            : "absolute left-[-100%]"
+        }
+      >
+        <ul>
+          <img src="/logo.png" alt="logo" style={{ width: "100px" }} />
+          <li className="text-gray-800 border-b hover:text-purple-700 duration-500">
             <Link to="/" className="my-7 md:my-0 md:ml-8">
               Home
             </Link>
           </li>
-          <li className="text-gray-800 hover:text-purple-700 duration-500">
+          <li className="text-gray-800 border-b hover:text-purple-700 duration-500">
             <Link to="/about" className="my-7 md:my-0 md:ml-8">
               About
             </Link>
           </li>
-          <li className="text-gray-800 hover:text-purple-700 duration-500">
+          <li className="text-gray-800 border-b hover:text-purple-700 duration-500">
             <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
               Menu
             </Link>
           </li>
         </ul>
-        <div className="flex mt-4 md:mt-0">
-          <LuSearch
-            size={20}
-            className=" mr-5 my-7 md:my-0 md:ml-8 hover:text-purple-700 duration-500 "
-          />
-        </div>
-
-        <div onClick={handleNav} className="md:hidden z-10">
-          {open ? <HiXMark size={20} /> : <RiMenu3Fill size={20} />}
-        </div>
-        <div
-          onClick={handleNav}
-          className={
-            open
-              ? "absolute left-0 top-0 w-full bg-purple-100/90 px-4 py-7 flex flex-col"
-              : "absolute left-[-100%]"
-          }
-        >
-          <ul>
-            <img src="/logo.png" alt="logo" style={{ width: "100px" }} />
-            <li className="text-gray-800 border-b hover:text-purple-700 duration-500">
-              <Link to="/" className="my-7 md:my-0 md:ml-8">
-                Home
-              </Link>
-            </li>
-            <li className="text-gray-800 border-b hover:text-purple-700 duration-500">
-              <Link to="/about" className="my-7 md:my-0 md:ml-8">
-                About
-              </Link>
-            </li>
-            <li className="text-gray-800 border-b hover:text-purple-700 duration-500">
-              <Link to="/catalog" className="my-7 md:my-0 md:ml-8">
-                Menu
-              </Link>
-            </li>
-          </ul>
-        </div>
       </div>
-    </>
+    </div>
+  </> 
   );
 }
