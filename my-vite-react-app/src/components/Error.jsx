@@ -1,5 +1,3 @@
-
-
 export default function Error() {
   return (
     <div className="bg-gradient-to-r from-purple-700 to-blue-200">
@@ -11,7 +9,7 @@ export default function Error() {
             <p className="text-2xl pb-8 px-12 font-medium">
               Sorry, we couldn’t find the page you’re looking for.
             </p>
-            <button className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-6 py-3 rounded-md mr-6">
+            <button className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white font-semibold px-6 py-3 rounded-md mr-6">
               HOME
             </button>
           </div>
