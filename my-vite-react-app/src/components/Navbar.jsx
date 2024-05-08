@@ -1,25 +1,32 @@
-import { LuSearch } from "react-icons/lu";
-
+//import { LuSearch } from "react-icons/lu";
+import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <img src="/logo.png" className="w-100 h-20 mr-2" alt="Logo" />
+        <Link to="/" className="my-7 md:my-0 cursor-pointer">
+          <img
+            src="/logo.png"
+            alt="logo"
+            className="hover:scale-110 duration-500"
+            style={{ width: "100px" }}
+          />
+        </Link>
       </a>
       <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <a className="text-base mr-5 hover:text-gray-900">Home</a>
-        <a className="text-base mr-5 hover:text-gray-900">Story</a>
-        <a className="text-base mr-5 hover:text-gray-900">Gallery</a>
-        <a className="text-base mr-5 hover:text-gray-900">Contact Us</a>
+        <a className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2">
+          <Link to="/">Home</Link>
+        </a>
+        <a className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2">
+          <Link to="/menu">Menu</Link>
+        </a>
+        <a className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2">
+          <Link to="/about">About</Link>
+        </a>
+        <a className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2">
+          <Link to="/contact">Contact</Link>
+        </a>
       </nav>
-      <div className="flex mt-4 md:mt-0">
-        <LuSearch className="text-black" />
-      </div>
-      <input
-        type="text"
-        placeholder="Search"
-        className="pl-10 pr-4 py-2 rounded-lg border-none text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent"
-      />
     </div>
   );
 }

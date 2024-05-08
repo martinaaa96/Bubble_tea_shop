@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { LuSearch } from "react-icons/lu";
+
 export default function Proba() {
   return (
-    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 font-serif">
+    <div className="container mx-auto flex flex-wrap flex-col md:flex-row p-5 items-center justify-between h-20 px-4 absolute z-10 font-serif w-full">
       <div>
-        <Link to="/" className="my-7 md:my-0 md:ml-8 cursor: pointer">
+        <Link to="/" className="my-7 md:my-0 md:ml-8 cursor-pointer">
           <img
             src="/logo.png"
             alt="logo"
@@ -13,34 +13,20 @@ export default function Proba() {
           />
         </Link>
       </div>
-      <nav className="md:ml-auto  flex flex-wrap items-center text-base justify-center">
-        <a className="text-white hover:text-purple-700 duration-500">
-          <Link to="/" className="my-7 md:my-0 md:ml-8">
-            Home
-          </Link>
+      <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center mt-10 md:mt-0">
+        <a className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2">
+          <Link to="/">Home</Link>
         </a>
-        <a className="text-white hover:text-purple-700 duration-500">
-          <Link to="/" className="my-7 md:my-0 md:ml-8">
-            Home
-          </Link>
+        <a className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2">
+          <Link to="/menu">Menu</Link>
         </a>
-        <a className="text-white hover:text-purple-700 duration-500">
-          <Link to="/" className="my-7 md:my-0 md:ml-8">
-            Home
-          </Link>
+        <a className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2">
+          <Link to="/about">About</Link>
         </a>
-        <a className="text-white hover:text-purple-700 duration-500">
-          <Link to="/" className="my-7 md:my-0 md:ml-8">
-            Home
-          </Link>
+        <a className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2">
+          <Link to="/contact">Contact</Link>
         </a>
       </nav>
-      <div className="flex mt-4 md:mt-0">
-        <LuSearch
-          size={20}
-          className="mr-5 my-7 md:my-0 md:ml-8 hover:text-purple-700 duration-500"
-        />
-      </div>
     </div>
   );
 }
