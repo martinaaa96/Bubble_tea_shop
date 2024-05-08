@@ -8,12 +8,11 @@ export default function Home() {
               <span className="text-purple-700">Bubble</span>
               <span className="text-white"> milk </span>tea
             </h1>
-            <p className="text-2xl mb-8">Our ...fsfsfff.fr.rf..rf.rghght</p>
+            <p className="text-2xl mb-8">Some text here </p>
             <div className="flex items-center">
               <button className="rounded px-10 py-3 text-white bg-purple-700 hover:bg-purple-500">
                 Look our boba menu
               </button>
-              <img className="pl-4 pr-2" src="" />
             </div>
           </div>
         </div>
