@@ -1,4 +1,4 @@
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { SiFacebook } from "react-icons/si";
 import { FiInstagram } from "react-icons/fi";
 
@@ -7,27 +7,18 @@ export default function Footer() {
     <footer className="bg-white dark:bg-gray-900">
       <div className="container px-6 py-8 mx-auto">
         <div className="flex flex-col items-center text-center">
-          <a href="#">
-            <img className="w-auto h-20" src="logo.png" alt="" />
-          </a>
+          <Link to="/" className="my-7 md:my-0 cursor-pointer">
+            <img className="w-auto h-20 hover:scale-110 duration-500 " src="logo.png" alt="logo" />
+          </Link>
 
-          <p className="max-w-md mx-auto mt-4 text-gray-500 dark:text-gray-400">
+          <p className="max-w-md mx-auto mt-4 text-black dark:text-gray-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
 
-          <div className="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center">
-            <button
-              className="flex items-center justify-center order-1 w-full px-2 py-2 mt-3 text-sm tracking-wide
-             text-white capitalize transition-colors  transform border rounded-md sm:mx-2 dark:border-gray-400
-              dark:text-gray-300 sm:mt-0 sm:w-auto hover:bg-gray-50 focus:outline-none focus:ring bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white font-semibold
-                focus:ring-opacity-40"
-            >
-              <span className="mx-1 ">Menu</span>
-            </button>
-          </div>
+          <div className="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center"></div>
         </div>
 
-        <hr className="my-10 border-gray-200 dark:border-gray-700" />
+        <hr className="my-2 border-purple-700 dark:border-gray-700" />
 
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
           <p className="text-sm text-gray-500">
