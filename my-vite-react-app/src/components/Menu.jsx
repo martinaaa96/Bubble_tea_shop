@@ -1,26 +1,38 @@
 export default function Menu() {
   return (
     <>
-      <div className="text-center p-10">
-        <h1 className="text-4xl mb-4">Out Boba Menu</h1>
-        <h1 className="text-3xl">Check here </h1>
+      <div className="flex justify-between items-center p-10">
+        <div>
+          <h1 className="text-4xl mb-4">Out Boba Menu</h1>
+          <h1 className="text-3xl">Check here </h1>
+        </div>
+        <div className="relative">
+          <input
+            type="text"
+            placeholder="Search..."
+            className="border border-purple-500 rounded-md px-3 py-1 focus:outline-none focus:ring focus:border-purple-300"
+          />
+          <button className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-600 px-2 rounded-r-md focus:outline-none">
+            Search
+          </button>
+        </div>
       </div>
       <div className="flex justify-center mt-5">
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400  hover:to-orange-200 text-white 
-                focus:ring-opacity-40 py-2 px-4 rounded mx-2"
+            focus:ring-opacity-40 py-2 px-4 rounded mx-2"
         >
           Milk Tea
         </button>
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white 
-                focus:ring-opacity-40 py-2 px-4 rounded mx-2"
+            focus:ring-opacity-40 py-2 px-4 rounded mx-2"
         >
           Fruit Tea
         </button>
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white 
-                focus:ring-opacity-40 py-2 px-4 rounded mx-2"
+            focus:ring-opacity-40 py-2 px-4 rounded mx-2"
         >
           Milk Shake
         </button>
