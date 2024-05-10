@@ -8,7 +8,11 @@ export default function Footer() {
       <div className="container px-6 py-8 mx-auto">
         <div className="flex flex-col items-center text-center">
           <Link to="/" className="my-7 md:my-0 cursor-pointer">
-            <img className="w-auto h-20 hover:scale-110 duration-500 " src="logo.png" alt="logo" />
+            <img
+              className="w-auto h-20 hover:scale-110 duration-500 "
+              src="logo.png"
+              alt="logo"
+            />
           </Link>
 
           <p className="max-w-md mx-auto mt-4 text-black dark:text-gray-400">
@@ -22,7 +26,7 @@ export default function Footer() {
 
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
           <p className="text-sm text-gray-500">
-            © Copyright 2021. All Rights Reserved.
+            © Boba milk tea Copyright 2024. All Rights Reserved.
           </p>
 
           <div className="flex mt-3 -mx-2 sm:mt-0">
