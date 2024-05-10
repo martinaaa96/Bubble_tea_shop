@@ -8,6 +8,8 @@ import Error from "./components/Error";
 import Menu from "./components/Menu.jsx";
 import About from "./components/About.jsx";
 import NavBar from "./components/Navbar.jsx";
+import Featured from "./components/Featured.jsx";
+
 function App() {
   return (
     <>
@@ -17,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/about" element={<About />} />
+        <Route path="/special" element={<Featured />} />
         <Route path="/*" element={<Error />} />
       </Routes>
 
