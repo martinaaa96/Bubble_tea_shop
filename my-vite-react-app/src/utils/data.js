@@ -4,7 +4,7 @@ export const data = [
         name: 'Original',
         category: 'Milk Tea',
         ingredients: 'black tea, milk, sugar, ice cubes',
-        image: '/my-vite-react-app/public/Original_Milk-Tea-Boba.jpg',
+        image: '/Original_Milk-Tea-Boba.jpg',
         price: '10',
 
     },
@@ -13,7 +13,7 @@ export const data = [
         name: 'Taro ',
         category: 'Milk Tea',
         ingredients: 'Taro paste, black tea, milk, sugar, ice cubes',
-        image: '/my-vite-react-app/public/Taro-Milk-Bubble-Tea-with-Brown-Sugar-Boba.png',
+        image: '/Taro-Milk-Bubble-Tea-with-Brown-Sugar-Boba.png',
         price: '12',
 
 
@@ -23,7 +23,7 @@ export const data = [
         name: 'Mango',
         category: 'Milk Tea',
         ingredients: 'Mango paste, black tea, milk, sugar, ice cubes',
-        image: '/my-vite-react-app/public/Mango-Bubble-Tea.png',
+        image: '/Mango-Bubble-Tea.png',
         price: '13',
 
     },
@@ -32,7 +32,7 @@ export const data = [
         name: 'Almond',
         category: 'Milk Tea',
         ingredients: 'Almond paste, black tea, milk, sugar, ice cubes',
-        image: '/my-vite-react-app/public/Almond-Milk-Tea.png',
+        image: '/Almond-Milk-Tea.png',
         price: '8',
 
     },
@@ -41,7 +41,7 @@ export const data = [
         name: 'Strawberry',
         category: 'Milk Tea',
         ingredients: 'Strawberry, black tea, milk, sugar, ice cubes',
-        image: '/my-vite-react-app/public/iced-bubble-tea.png',
+        image: '/iced-bubble-tea.png',
         price: '10',
 
     },
@@ -50,7 +50,7 @@ export const data = [
         name: 'Kiwi',
         category: 'Fruit Tea',
         ingredients: 'Green apple syrup, black tea, sugar, ice cubes',
-        image: '/my-vite-react-app/public/kiwi_fruit_tea.jpg',
+        image: '/kiwi_fruit_tea.jpg',
         price: '10',
 
 
@@ -60,7 +60,7 @@ export const data = [
         name: 'Peach',
         category: 'Fruit Tea',
         ingredients: 'Peach syrup, black tea, sugar, ice cubes',
-        image: '/my-vite-react-app/public/peach_fruit_tea.jpg',
+        image: '/peach_fruit_tea.jpg',
         price: '10',
 
     },
@@ -69,7 +69,7 @@ export const data = [
         name: 'Mango',
         category: 'Fruit Tea',
         ingredients: 'Mango syrup, black tea, sugar, ice cubes',
-        image: '/my-vite-react-app/public/Mango-Green-Teas-2.jpg',
+        image: '/Mango-Green-Teas-2.jpg',
         price: '10',
 
     },
@@ -78,7 +78,7 @@ export const data = [
         name: 'Passion fruit',
         category: 'Fruit Tea',
         ingredients: 'Forest fruit syrup, black tea, sugar, ice cubes',
-        image: '/my-vite-react-app/public/passion-fruit-tea.jpg',
+        image: '/passion-fruit-tea.jpg',
         price: '10',
 
     },
@@ -87,7 +87,7 @@ export const data = [
         name: 'Peach',
         category: 'Milk Shake',
         ingredients: 'Fresh peaches, milk, vanilla ice cream, whipped cream',
-        image: '/my-vite-react-app/public/peach_milkshake.jpg',
+        image: '/peach_milkshake.jpg',
         price: '10',
 
 
@@ -123,7 +123,7 @@ export const data = [
         id: 14,
         name: 'Banana',
         category: 'milk Shake',
-        ingredients: ' Fresh bananas, milk, vanilla ice cream, whipped cream',
+        ingredients:'Fresh bananas, milk, vanilla ice cream, whipped cream',
         image: '/Banana Milkshake.jpg',
         price: '10',
 
@@ -132,3 +132,4 @@ export const data = [
 
 
 ]
+
