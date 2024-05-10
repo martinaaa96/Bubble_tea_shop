@@ -1,7 +1,7 @@
 export default function Menu() {
   return (
     <>
-      <div className="flex justify-between items-center p-10">
+      <div className="flex justify-between items-center text-center p-10">
         <div>
           <h1 className="text-4xl mb-4">Out Boba Menu</h1>
           <h1 className="text-3xl">Check here </h1>
