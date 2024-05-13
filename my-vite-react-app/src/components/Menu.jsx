@@ -1,18 +1,13 @@
-import { useState } from 'react';
-import {data} from '../utils/data'
+import { useState } from "react";
+import { data } from "../utils/data";
 
 export default function Menu() {
-
-
-    const [products, setProducts] = useState(data)
+  const [products, setProducts] = useState(data);
 
   return (
     <>
-      <div className="flex justify-between items-center text-center p-10">
-      <div> <h1 className="text-4xl mb-4">Out Boba Menu</h1>
-          <h1 className="text-3xl">Check here </h1>
-          </div>
-  
+      <div className="flex justify-between items-center text-right p-10"></div>
+      <div className="flex justify-center mt-5">
         <div className="relative">
           <input
             type="text"
@@ -23,9 +18,6 @@ export default function Menu() {
             Search
           </button>
         </div>
-              </div>
-          
-      <div className="flex justify-center mt-5">
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400  hover:to-orange-200 text-white 
             focus:ring-opacity-40 py-2 px-4 rounded mx-2"
@@ -64,9 +56,7 @@ export default function Menu() {
                 <p className="text-lg font-bold text-black truncate block capitalize">
                   {product.name}
                 </p>
-                <p className="text-lg text-black truncate block capitalize">
-                  {product.ingredients}
-                </p>
+                <span className="text-black text-s">{product.ingredients}</span>
                 <div className="flex items-center">
                   <p className="text-lg font-semibold text-black cursor-auto my-3">
                     ${product.price}
@@ -78,7 +68,6 @@ export default function Menu() {
           </div>
         ))}
       </section>
-    ..
     </>
   );
 }
