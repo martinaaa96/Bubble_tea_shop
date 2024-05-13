@@ -2,64 +2,56 @@ export default function Featured() {
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-800 mb-8">
+        <h2 className="text-3xl text-center font-bold text-purple-600 mb-8">
           Featured products
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+
+        <div className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+          <div className="w-72 bg-white shadow-md rounded-xl">
             <img
-              src="https://images.unsplash.com/photo-1519681393784-d120267933ba"
+              src="/matcha milk tea.jpg"
               alt="Coffee"
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover duration-600 hover:scale-105 "
             />
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Single Origin Blend
+                Matcha milk tea
               </h3>
-              <p className="text-gray-700 text-base">
-                Our most popular blend, featuring beans from a single farm in
-                Ethiopia. Notes of chocolate, berries, and citrus.
-              </p>
+              <p className="text-gray-700 text-base"> Matcha powder, black tea, milk, sugar, tapioca pearls, ice cubes</p>
               <div className="mt-4 flex items-center justify-between">
                 <span className="text-gray-700 font-medium">$14.99</span>
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="w-72 bg-white shadow-md rounded-xl">
             <img
-              src="https://plus.unsplash.com/premium_photo-1675716443562-b771d72a3da7"
+              src="tiger milk tea.jpg"
               alt="Coffee"
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover duration-600 hover:scale-105 "
             />
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Dark Roast Blend
+                Tiger milk tea
               </h3>
-              <p className="text-gray-700 text-base">
-                A bold and flavorful blend of beans from Brazil, Colombia, and
-                Indonesia. Notes of caramel, nuts, and tobacco.
-              </p>
+              <p className="text-gray-700 text-base">Brown sugar, black tea, milk, tapioca pearls, ice cubes </p>
               <div className="mt-4 flex items-center justify-between">
                 <span className="text-gray-700 font-medium">$12.99</span>
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="w-72 bg-white shadow-md rounded-xl">
             <img
-              src="https://plus.unsplash.com/premium_photo-1675716443562-b771d72a3da7"
+              src="/butterfly milk tea.jpg"
               alt="Coffee"
-              className="w-full h-64 object-cover"
+              className="w-72 h-64 object-cover duration-600 hover:scale-105 "
             />
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Dark Roast Blend
+                Butterfly milk tea
               </h3>
-              <p className="text-gray-700 text-base">
-                A bold and flavorful blend of beans from Brazil, Colombia, and
-                Indonesia. Notes of caramel, nuts, and tobacco.
-              </p>
+              <p className="text-gray-700 text-base">Butterfly pea syrup, black tea, milk, sugar, tapioca pearls, ice cubes</p>
               <div className="mt-4 flex items-center justify-between">
-                <span className="text-gray-700 font-medium">$12.99</span>
+                <span className="text-gray-700 font-medium">$14.99</span>
               </div>
             </div>
           </div>
