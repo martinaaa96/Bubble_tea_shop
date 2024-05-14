@@ -1,14 +1,14 @@
 import home from "/home.png";
-import homePics from "/homePics.jpg";
+import about_page from "/about_page.jpg";
 import homePicss from "/homePicss.jpg";
 export default function About() {
   return (
     <section className="bg-white dark:bg-gray-900 font-serif">
-      <div className="grid gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div className="grid gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-32 lg:px-6">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:col-span-1">
           <img
             className="w-full rounded-lg"
-            src={homePics}
+            src={about_page}
             alt="fruit tea"
             style={{ clipPath: "circle(50% at 50% 50%)" }}
           />
