@@ -7,14 +7,14 @@ export default function Menu() {
   return (
     <>
       <div className="flex justify-between items-center text-right p-10"></div>
-      <div className="flex justify-center mt-5">
+      <div className="flex justify-center mt-8">
         <div className="relative">
           <input
             type="text"
             placeholder="Search..."
-            className="border border-purple-500 rounded-md px-3 py-1 focus:outline-none focus:ring focus:border-purple-300"
+            className="border border-purple-500 rounded px-3 py-2 focus:outline-none focus:ring focus:border-purple-300"
           />
-          <button className="absolute right-3 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-600 px-2 rounded-r-md focus:outline-none">
+          <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-600 px-6 py-2 rounded focus:outline-none">
             Search
           </button>
         </div>
