@@ -4,6 +4,18 @@ import { data } from "../utils/data";
 export default function Menu() {
   const [products, setProducts] = useState(data);
 
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  const filterProducts = (category) => {
+    if (selectedCategory === category) {
+      setSelectedCategory(null); 
+    } else {
+      setSelectedCategory(category); 
+    }
+  };
+
+  const filteredProducts = selectedCategory ? products.filter(product => product.category === selectedCategory) : products;
+
   return (
     <>
       <div className="flex justify-between items-center text-right p-10"></div>
@@ -21,18 +33,21 @@ export default function Menu() {
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400  hover:to-orange-200 text-white 
             focus:ring-opacity-40 py-2 px-4 rounded mx-2"
+          onClick={() => filterProducts("Milk Tea")}
         >
           Milk Tea
         </button>
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white 
             focus:ring-opacity-40 py-2 px-4 rounded mx-2"
+          onClick={() => filterProducts("Fruit Tea")}
         >
           Fruit Tea
         </button>
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white 
             focus:ring-opacity-40 py-2 px-4 rounded mx-2"
+          onClick={() => filterProducts("Milk Shake")}
         >
           Milk Shake
         </button>

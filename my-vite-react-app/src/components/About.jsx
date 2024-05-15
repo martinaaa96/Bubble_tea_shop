@@ -1,6 +1,6 @@
-import home from "/home.png";
+import pageabout from "/pageabout.jpg";
 import about_page from "/about_page.jpg";
-import homePicss from "/homePicss.jpg";
+import aboutpage1 from "/aboutpage1.jpg";
 export default function About() {
   return (
     <section className="bg-white dark:bg-gray-900 font-serif">
@@ -12,10 +12,10 @@ export default function About() {
             alt="fruit tea"
             style={{ clipPath: "circle(50% at 50% 50%)" }}
           />
-          <img className="w-full rounded-lg" src={homePicss} alt="milk shake" />
+          <img className="w-full rounded-lg" src= {pageabout} alt="milk shake" />
           <img
             className="w-full rounded-lg"
-            src={home}
+            src={aboutpage1}
             alt="boba milk tea"
             style={{ clipPath: "circle(50% at 50% 50%)" }}
           />
