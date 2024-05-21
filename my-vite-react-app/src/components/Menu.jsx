@@ -4,18 +4,12 @@ import { data } from "../utils/data";
 export default function Menu() {
   const [products, setProducts] = useState(data);
 
-  const [selectedCategory, setSelectedCategory] = useState(null);
+ const [filtered, setFiltered] = useState("");
 
-  const filterProducts = (category) => {
-    if (selectedCategory === category) {
-      setSelectedCategory(null); 
-    } else {
-      setSelectedCategory(category); 
-    }
-  };
+ const filterProducts = 
+ filtered === "" ? products : data.filter(product => product.category.includes(filtered));
 
-  const filteredProducts = selectedCategory ? products.filter(product => product.category === selectedCategory) : products;
-
+ console.log(filterProducts)
   return (
     <>
       <div className="flex justify-between items-center text-right p-10"></div>
@@ -34,34 +28,34 @@ export default function Menu() {
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400  hover:to-orange-200 text-white 
             focus:ring-opacity-40 py-2 px-4 rounded mx-2"
-          onClick={() => filterProducts("Milk Tea")}
+          onClick={() => setFiltered("Milk Tea")}
         >
           Milk Tea
         </button>
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white 
             focus:ring-opacity-40 py-2 px-4 rounded mx-2"
-          onClick={() => filterProducts("Fruit Tea")}
+          onClick={() => setFiltered("Fruit Tea")}
         >
           Fruit Tea
         </button>
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white 
             focus:ring-opacity-40 py-2 px-4 rounded mx-2"
-          onClick={() => filterProducts("Milk Shake")}
+          onClick={() => setFiltered("Milk Shake")}
         >
           Milk Shake
         </button>
         <button
           className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white 
             focus:ring-opacity-40 py-2 px-4 rounded mx-2"
-          onClick={() => filterProducts("Milk Shake")}
+          onClick={() => setFiltered("")}
         >
           All
         </button>
       </div>
       <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-        {products.map((product) => (
+        {filterProducts.map((product) => (
           <div
             key={product.id}
             className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
