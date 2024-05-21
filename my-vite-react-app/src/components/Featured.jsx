@@ -2,7 +2,7 @@ export default function Featured() {
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl text-center font-bold text-purple-600 mb-8">
+        <h2 className="text-3xl text-center font-bold text-purple-600 mb-8 animate-fade-right ">
           Featured products
         </h2>
 
@@ -17,9 +17,12 @@ export default function Featured() {
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 Matcha milk tea
               </h3>
-              <p className="text-gray-700 text-base"> Matcha powder, black tea, milk, sugar, tapioca pearls, ice cubes</p>
+              <p className="text-gray-700 text-base">
+                {" "}
+                Matcha powder, black tea, milk, sugar, tapioca pearls, ice cubes
+              </p>
               <div className="mt-4 flex items-center justify-between">
-                <span className="text-gray-700 font-medium">$14.99</span>
+                <span className="text-green-800 font-medium">$14.99</span>
               </div>
             </div>
           </div>
@@ -33,9 +36,11 @@ export default function Featured() {
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 Tiger milk tea
               </h3>
-              <p className="text-gray-700 text-base">Brown sugar, black tea, milk, tapioca pearls, ice cubes </p>
+              <p className="text-gray-700 text-base">
+                Brown sugar, black tea, milk, tapioca pearls, ice cubes{" "}
+              </p>
               <div className="mt-4 flex items-center justify-between">
-                <span className="text-gray-700 font-medium">$12.99</span>
+                <span className="text-orange-800 font-medium">$12.99</span>
               </div>
             </div>
           </div>
@@ -49,9 +54,12 @@ export default function Featured() {
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 Butterfly milk tea
               </h3>
-              <p className="text-gray-700 text-base">Butterfly pea syrup, black tea, milk, sugar, tapioca pearls, ice cubes</p>
+              <p className="text-gray-700 text-base">
+                Butterfly pea syrup, black tea, milk, sugar, tapioca pearls, ice
+                cubes
+              </p>
               <div className="mt-4 flex items-center justify-between">
-                <span className="text-gray-700 font-medium">$14.99</span>
+                <span className="text-blue-800 font-medium">$14.99</span>
               </div>
             </div>
           </div>
