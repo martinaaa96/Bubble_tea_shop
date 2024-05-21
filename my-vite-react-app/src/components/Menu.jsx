@@ -26,6 +26,7 @@ export default function Menu() {
             placeholder="Search..."
             className="border border-purple-500 rounded px-3 py-2 focus:outline-none focus:ring focus:border-purple-300"
           />
+         
           <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-600 px-6 py-2 rounded focus:outline-none">
             Search
           </button>
@@ -50,6 +51,13 @@ export default function Menu() {
           onClick={() => filterProducts("Milk Shake")}
         >
           Milk Shake
+        </button>
+        <button
+          className="bg-gradient-to-r from-purple-700 to-blue-200 hover:from-pink-400 hover:to-orange-200 text-white 
+            focus:ring-opacity-40 py-2 px-4 rounded mx-2"
+          onClick={() => filterProducts("Milk Shake")}
+        >
+          All
         </button>
       </div>
       <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">

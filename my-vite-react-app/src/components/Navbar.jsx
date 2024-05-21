@@ -73,12 +73,12 @@ export default function NavBar() {
         {open ? (
           <HiX
             size={20}
-            style={{ color: isHomePage ? "text-white" : "text-black" }}
+            style={{ color: isHomePage ? "white" : "black" }}
           />
         ) : (
           <RiMenu3Fill
             size={20}
-            style={{ color: isHomePage ? "text-white" : "text-black" }}
+            style={{ color: isHomePage ? "white" : "black" }}
           />
         )}
       </div>
