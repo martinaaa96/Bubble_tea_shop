@@ -20,7 +20,7 @@ export default function About() {
             style={{ clipPath: "circle(50% at 50% 50%)" }}
           />
         </div>
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400 lg:col-span-1">
+        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400 lg:col-span-1 animate-fade-up">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Boba milk tea
           </h2>
@@ -31,7 +31,7 @@ export default function About() {
             and experience the perfect blend of flavor and refreshment!{" "}
           </p>
           <p className="font-semibold mb-4">
-            And don't forget to try our delightful boba milk tea!
+            And dont forget to try our delightful boba milk tea!
           </p>
         </div>
       </div>
