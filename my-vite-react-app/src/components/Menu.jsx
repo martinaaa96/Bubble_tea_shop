@@ -4,12 +4,22 @@ import { data } from "../utils/data";
 export default function Menu() {
   const [products, setProducts] = useState(data);
 
- const [filtered, setFiltered] = useState("");
+  const [filtered, setFiltered] = useState("");
 
- const filterProducts = 
- filtered === "" ? products : data.filter(product => product.category.includes(filtered));
+  const [searchQuery, setSearchQuery] = useState("");
 
- console.log(filterProducts)
+  const filterProducts =
+    filtered === ""
+      ? products
+      : data.filter((product) => product.category.includes(filtered));
+
+  const searchProducts =
+    searchQuery === ""
+      ? filterProducts
+      : filterProducts.filter((product) =>
+          product.name.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+
   return (
     <>
       <div className="flex justify-between items-center text-right p-10"></div>
@@ -19,9 +29,14 @@ export default function Menu() {
             type="text"
             placeholder="Search..."
             className="border border-purple-500 rounded px-3 py-2 focus:outline-none focus:ring focus:border-purple-300"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
           />
-         
-          <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-600 px-6 py-2 rounded focus:outline-none">
+
+          <button
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-600 px-6 py-2 rounded focus:outline-none"
+            onClick={() => setSearchQuery(searchQuery)}
+          >
             Search
           </button>
         </div>
@@ -55,7 +70,7 @@ export default function Menu() {
         </button>
       </div>
       <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-        {filterProducts.map((product) => (
+        {searchProducts.map((product) => (
           <div
             key={product.id}
             className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
