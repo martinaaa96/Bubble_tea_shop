@@ -105,7 +105,7 @@ export const data = [
     {
         id: 12,
         name: 'Raspberry',
-        category: 'milk Shake',
+        category: 'Milk Shake',
         ingredients: 'fresh raspberry, milk, vanilla ice cream, whipped cream',
         image: '/Raspberry and chocolate brownie sharing milkshake _ Asda Good Living.jpg',
         price: '10',
@@ -114,7 +114,7 @@ export const data = [
     {
         id: 13,
         name: 'Strawberry',
-        category: 'milk Shake',
+        category: 'Milk Shake',
         ingredients: 'Fresh strawberries, milk, vanilla ice cream, whipped cream',
         image: '/Strawberry Milkshake.jpg',
         price: '10',
@@ -122,7 +122,7 @@ export const data = [
     }, {
         id: 14,
         name: 'Banana',
-        category: 'milk Shake',
+        category: 'Milk Shake',
         ingredients:'Fresh bananas, milk, vanilla ice cream, whipped cream',
         image: '/Banana Milkshake.jpg',
         price: '10',
