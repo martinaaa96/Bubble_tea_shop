@@ -37,3 +37,11 @@ Catalog: Users can view a list of available products, along with detailed inform
 Sorting: Users can sort products by categories and search by name - making it easy for them to find products that match their interests or needs
 
 # Bubble_tea_shop
+![homepage1](https://github.com/martinaaa96/Bubble_tea_shop/assets/111580293/8f8f6eae-47be-485f-ae10-4c3771ddc1ca)
+![aboutPage2](https://github.com/martinaaa96/Bubble_tea_shop/assets/111580293/88fb4318-26b1-4ea5-8551-f2bd878d2805)
+![MenuPage3](https://github.com/martinaaa96/Bubble_tea_shop/assets/111580293/320fa5af-0905-401e-b278-9d91e2060fe2)
+![productsPage4](https://github.com/martinaaa96/Bubble_tea_shop/assets/111580293/afb29309-75e9-40f9-b43a-1a1f2f6fa711)
+![errorPage5](https://github.com/martinaaa96/Bubble_tea_shop/assets/111580293/f8d982f8-5ab6-4e64-90d1-12b7ed853675)
+
+
+
