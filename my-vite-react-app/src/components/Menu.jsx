@@ -23,12 +23,12 @@ export default function Menu() {
   return (
     <>
       <div className="flex justify-between items-center text-right p-10"></div>
-      <div className="flex justify-center mt-8">
-        <div className="relative">
+      <div className="flex flex-wrap justify-center mt-8 space-y-4 md:space-y-0 md:space-x-2 ">
+        <div className="relative flex w-full md:w-auto">
           <input
             type="text"
             placeholder="Search..."
-            className="border border-purple-500 rounded px-3 py-2 focus:outline-none focus:ring focus:border-purple-300"
+            className="border border-purple-500 rounded px-3 py-2 focus:outline-none focus:ring focus:border-purple-300 w-full md:w-auto"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
