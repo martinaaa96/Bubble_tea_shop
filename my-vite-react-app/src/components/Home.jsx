@@ -14,9 +14,12 @@ export default function Home() {
               So delicious
             </p>
             <div className="flex">
-              <button className="rounded px-10 py-3 text-white bg-purple-700 hover:scale-110 duration-700">
+              <Link
+                to="/menu"
+                className="rounded px-10 py-3 text-white bg-purple-700 hover:scale-110 duration-700"
+              >
                 Check our menu
-              </button>
+              </Link>
             </div>
           </div>
         </div>
