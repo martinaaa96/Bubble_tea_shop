@@ -71,10 +71,7 @@ export default function NavBar() {
       </nav>
       <div onClick={handleNav} className="md:hidden z-10">
         {open ? (
-          <HiX
-            size={20}
-            style={{ color: isHomePage ? "white" : "black" }}
-          />
+          <HiX size={20} style={{ color: isHomePage ? "white" : "black" }} />
         ) : (
           <RiMenu3Fill
             size={20}
@@ -86,7 +83,11 @@ export default function NavBar() {
         onClick={handleNav}
         className={
           open
-            ? "absolute left-0 top-0 w-full bg-purple px-4 py-7 flex flex-col"
+            ? `absolute left-0 top-0 w-full px-4 py-7 flex flex-col ${
+                !isHomePage
+                  ? "bg-gradient-to-r from-purple-200 to-blue-200"
+                  : ""
+              }`
             : "absolute left-[-100%]"
         }
       >
