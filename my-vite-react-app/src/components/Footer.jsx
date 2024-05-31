@@ -16,7 +16,7 @@ export default function Footer() {
           </Link>
 
           <p className="max-w-md mx-auto mt-4 text-black dark:text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            The Bubble Milk Tea is open from 10:00 to 19:00 at Bul. Bulgaria 2.
           </p>
 
           <div className="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center"></div>
