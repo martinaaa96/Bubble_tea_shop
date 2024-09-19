@@ -70,36 +70,36 @@ export default function Menu() {
         </button>
       </div>
       <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
-        {searchProducts.map((product) => (
-          <div
-            key={product.id}
-            className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl"
-          >
-            <a href="#">
-              <img
-                src={product.image}
-                alt="Product"
-                className="h-80 w-72 object-cover rounded-t-xl"
-              />
-              <div className="px-4 py-3 w-72">
-                <span className="text-gray-400 mr-3 uppercase text-xs">
-                  {product.category}
-                </span>
-                <p className="text-lg font-bold text-black truncate block capitalize">
-                  {product.name}
-                </p>
-                <span className="text-black text-s">{product.ingredients}</span>
-                <div className="flex items-center">
-                  <p className="text-lg font-semibold text-black cursor-auto my-3">
-                    ${product.price}
-                  </p>
-                  <div className="ml-auto"></div>
-                </div>
-              </div>
-            </a>
+  {searchProducts.map((product) => (
+    <div
+      key={product.id}
+      className="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl flex flex-col"
+    >
+      <a href="#">
+        <img
+          src={product.image}
+          alt="Product"
+          className="h-80 w-72 object-cover rounded-t-xl"
+        />
+        <div className="px-4 py-3 w-72 flex flex-col flex-grow">
+          <span className="text-gray-400 mr-3 uppercase text-xs">
+            {product.category}
+          </span>
+          <p className="text-lg font-bold text-black truncate block capitalize">
+            {product.name}
+          </p>
+          <span className="text-black text-s">{product.ingredients}</span>
+          <div className="flex items-center mt-auto">
+            <p className="text-lg font-semibold text-black cursor-auto my-3">
+              ${product.price}
+            </p>
+            <div className="ml-auto"></div>
           </div>
-        ))}
-      </section>
+        </div>
+      </a>
+    </div>
+  ))}
+</section>
     </>
   );
 }
