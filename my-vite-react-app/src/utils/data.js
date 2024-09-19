@@ -3,7 +3,7 @@ export const data = [
         id: 1,
         name: 'Original',
         category: 'Milk Tea',
-        ingredients: 'black tea, milk, sugar, ice cubes',
+        ingredients: 'black tea, milk, sugar, ice cubes, tapioca',
         image: '/Original_Milk-Tea-Boba.jpg',
         price: '10',
 
@@ -12,7 +12,7 @@ export const data = [
         id: 2,
         name: 'Taro ',
         category: 'Milk Tea',
-        ingredients: 'Taro paste, black tea, milk, sugar, ice cubes',
+        ingredients: 'Taro paste, black tea, milk, sugar, ice cubes, tapioca',
         image: '/Taro-Milk-Bubble-Tea-with-Brown-Sugar-Boba.png',
         price: '12',
 
@@ -22,7 +22,7 @@ export const data = [
         id: 3,
         name: 'Mango',
         category: 'Milk Tea',
-        ingredients: 'Mango paste, black tea, milk, sugar, ice cubes',
+        ingredients: 'Mango paste, black tea, milk, sugar, ice cubes, tapioca',
         image: '/Mango-Bubble-Tea.png',
         price: '13',
 
@@ -31,7 +31,7 @@ export const data = [
         id: 4,
         name: 'Almond',
         category: 'Milk Tea',
-        ingredients: 'Almond paste, black tea, milk, sugar, ice cubes',
+        ingredients: 'Almond paste, black tea, milk, sugar, ice cubes, tapioca',
         image: '/Almond-Milk-Tea.png',
         price: '8',
 
@@ -40,7 +40,7 @@ export const data = [
         id: 5,
         name: 'Strawberry',
         category: 'Milk Tea',
-        ingredients: 'Strawberry, black tea, milk, sugar, ice cubes',
+        ingredients: 'Strawberry, black tea, milk, sugar, ice cubes, tapioca',
         image: '/iced-bubble-tea.png',
         price: '10',
 
@@ -49,7 +49,7 @@ export const data = [
         id: 6,
         name: 'Kiwi',
         category: 'Fruit Tea',
-        ingredients: 'Green apple syrup, black tea, sugar, ice cubes',
+        ingredients: 'Green apple syrup, black tea, sugar, ice cubes, tapioca',
         image: '/kiwi_fruit_tea.jpg',
         price: '10',
 
@@ -59,7 +59,7 @@ export const data = [
         id: 7,
         name: 'Peach',
         category: 'Fruit Tea',
-        ingredients: 'Peach syrup, black tea, sugar, ice cubes',
+        ingredients: 'Peach syrup, black tea, sugar, ice cubes, tapioca',
         image: '/peach_fruit_tea.jpg',
         price: '10',
 
@@ -68,7 +68,7 @@ export const data = [
         id: 8,
         name: 'Mango',
         category: 'Fruit Tea',
-        ingredients: 'Mango syrup, black tea, sugar, ice cubes',
+        ingredients: 'Mango syrup, black tea, sugar, ice cubes, tapioca',
         image: '/Mango-Green-Teas-2.jpg',
         price: '10',
 
@@ -77,7 +77,7 @@ export const data = [
         id: 9,
         name: 'Passion fruit',
         category: 'Fruit Tea',
-        ingredients: 'Forest fruit syrup, black tea, sugar, ice cubes',
+        ingredients: 'Forest fruit syrup, black tea, sugar, ice cubes, tapioca',
         image: '/passion-fruit-tea.jpg',
         price: '10',
 
@@ -86,7 +86,7 @@ export const data = [
         id: 10,
         name: 'Peach',
         category: 'Milk Shake',
-        ingredients: 'Fresh peaches, milk, vanilla ice cream, whipped cream',
+        ingredients: 'Fresh peaches, milk, vanilla ice cream, whipped cream, tapioca',
         image: '/peach_milkshake.jpg',
         price: '10',
 
@@ -96,7 +96,7 @@ export const data = [
         id: 11,
         name: 'Blueberry',
         category: 'Milk Shake',
-        ingredients: 'Fresh blueberries, milk, vanilla ice cream, whipped cream',
+        ingredients: 'Fresh blueberries, milk, vanilla ice cream, whipped cream, tapioca',
         image: '/Blueberry Cheesecake Milkshake.jpg',
         price: '10',
 
@@ -106,7 +106,7 @@ export const data = [
         id: 12,
         name: 'Raspberry',
         category: 'Milk Shake',
-        ingredients: 'fresh raspberry, milk, vanilla ice cream, whipped cream',
+        ingredients: 'fresh raspberry, milk, vanilla ice cream, whipped cream, tapioca',
         image: '/Raspberry and chocolate brownie sharing milkshake _ Asda Good Living.jpg',
         price: '10',
 
@@ -115,7 +115,7 @@ export const data = [
         id: 13,
         name: 'Strawberry',
         category: 'Milk Shake',
-        ingredients: 'Fresh strawberries, milk, vanilla ice cream, whipped cream',
+        ingredients: 'Fresh strawberries, milk, vanilla ice cream, whipped cream, tapioca',
         image: '/Strawberry Milkshake.jpg',
         price: '10',
 
@@ -123,7 +123,7 @@ export const data = [
         id: 14,
         name: 'Banana',
         category: 'Milk Shake',
-        ingredients:'Fresh bananas, milk, vanilla ice cream, whipped cream',
+        ingredients:'Fresh bananas, milk, vanilla ice cream, whipped cream, tapioca',
         image: '/Banana Milkshake.jpg',
         price: '10',
 
