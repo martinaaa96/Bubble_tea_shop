@@ -71,7 +71,7 @@ export default function NavBar() {
       </nav>
       <div onClick={handleNav} className="md:hidden z-10">
         {open ? (
-          <HiX size={20} style={{ color: isHomePage ? "white" : "black" }} />
+          <HiX size={20} style={{ color: isHomePage ? "black" : "black" }} />
         ) : (
           <RiMenu3Fill
             size={20}
@@ -83,7 +83,7 @@ export default function NavBar() {
         onClick={handleNav}
         className={
           open
-            ? `absolute left-0 top-0 w-full px-4 py-7 flex flex-col ${
+            ? `absolute left-0 top-0 w-full px-4 py-7 flex flex-col bg-gradient-to-r  bg-orange-200/90 ${
                 !isHomePage
                   ? "bg-gradient-to-r from-purple-200 to-blue-200"
                   : ""
@@ -95,11 +95,7 @@ export default function NavBar() {
           <li>
             <Link
               to="/"
-              className={
-                isHomePage
-                  ? "text-white hover:text-purple-700 duration-500 md:mx-4 md:my-2"
-                  : "text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2"
-              }
+              className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2"
             >
               Home
             </Link>
@@ -107,11 +103,7 @@ export default function NavBar() {
           <li>
             <Link
               to="/about"
-              className={
-                !isHomePage
-                  ? "text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2"
-                  : "text-white hover:text-purple-700 duration-500 md:mx-4 md:my-2"
-              }
+              className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2"
             >
               About
             </Link>
@@ -122,7 +114,7 @@ export default function NavBar() {
               className={
                 !isHomePage
                   ? "text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2"
-                  : "text-white hover:text-purple-700 duration-500 md:mx-4 md:my-2"
+                  : "text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2"
               }
             >
               Menu
@@ -131,11 +123,7 @@ export default function NavBar() {
           <li>
             <Link
               to="/special"
-              className={
-                !isHomePage
-                  ? "text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2"
-                  : "text-white hover:text-purple-700 duration-500 md:mx-4 md:my-2"
-              }
+              className="text-black hover:text-purple-700 duration-500 md:mx-4 md:my-2"
             >
               Featured products
             </Link>
